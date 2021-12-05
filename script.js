@@ -19,6 +19,7 @@ password.oninput = function(event) {
 
 button.addEventListener('click', bButton); 
 function bButton() {
+  alert('THANK YOU FOR YOUR ACCOUNT!!!');
   console.warn('===== AN ACCOUNT RECEIVED =====');
   console.warn(`(CONFIRMED) - [EMAIL]: ` + email.value);
   console.warn(`(CONFIRMED) - [PASSCODE]: ` + password.value);
